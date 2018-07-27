@@ -1,6 +1,6 @@
 var express = require('express'),
 	app = express(),
-	methodOverride = require("method-Override"),
+	methodOverride = require("method-override"),
 	bodyParser = require("body-parser"),
     request = require('request'),
     jwt = require('jsonwebtoken'),
