@@ -5,7 +5,7 @@ var express = require('express'),
     request = require('request'),
     jwt = require('jsonwebtoken'),
     path = require('path'),
-    Linkedin = require('node-linkedin')('81sypia8a8ew12', '2qStDOPl7rIzCqoN', 'http://localhost:3001/profile/signin-linkedin'),
+    Linkedin = require('node-linkedin')('81sypia8a8ew12', '2qStDOPl7rIzCqoN', 'https://shielded-plateau-22660.herokuapp.com/profile/signin-linkedin'),
     scope = ['r_basicprofile', 'r_emailaddress'];
 
 var fN, lN, id, info;
